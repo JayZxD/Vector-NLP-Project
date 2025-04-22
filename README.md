@@ -11,9 +11,10 @@ This notebook demonstrates:
 - How to create and store vocabulary and vector mappings
 - How to preprocess text data and remove stopwords
 - Saving and loading `.txt` vector files (`vocab.txt` and `tVector.txt`)
-- How to gain insighta and use word embeddings
+- How to gain insights from word emebddings
+- Implmenting a model for classifying reviews
 
-It is primarily intended for educational use, and includes selected utility functions sourced from university material. These components are acknowledged and used only as part of the academic learning process.
+It is primarily intended for educational use and includes selected utility functions sourced from university material. These components are acknowledged and used only as part of the academic learning process.
 
 ---
 
@@ -43,3 +44,27 @@ You do **not** need to manually download or store the file. The notebook will fe
 1. Clone this repository or download the entire directory:
    ```bash
    git clone https://github.com/JayZxD/Vector-NLP-Project.git
+
+2. Ensure the following dependencies are installed:
+
+ - numpy
+ - pandas
+ - nltk
+ - sklearn
+ - requests
+
+3. Run the notebook:
+   ```bash
+   jupyter notebook Main.ipynb
+
+## ⚠️ Disclaimer
+
+Some functions in this notebook are derived from university lecture materials. They are used here purely for educational purposes, and no ownership is claimed for those portions of code.
+
+## 📬 Author
+[Jay Mayekar](https://www.linkedin.com/in/jay-mayekar25/)
+
+
+
+
+
